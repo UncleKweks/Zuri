@@ -19,35 +19,38 @@
     </header>
     <section>
       <div class="container">
-        <div class="item" data-testid="slackUsername">
+        <div class="item">
           <label>Slack Name:</label>
-          <span>Kwesili Okafor</span>
+          <span data-testid="slackUsername">Kwesili Okafor</span>
         </div>
 
-        <div class="item" data-testid="slackDisplayImage">
+        <div class="item">
           <label>Slack Display Image:</label>
           <img
             src="./IMG_9383.JPG"
             alt="Kwesili Okafor"
             class="profile-image"
+            data-testid="slackDisplayImage"
           />
         </div>
-        <div class="item" data-testid="currentDayofTheWeek">
+        <div class="item">
           <label>Current Day:</label>
-          <span id="currentDay"></span>
+          <span id="currentDay" data-testid="currentDayofTheWeek"></span>
         </div>
-        <div class="item" data-testid="currentUTCTime">
+        <div class="item">
           <label>Current UTC Time:</label>
-          <span id="currentUTC"></span>
+          <span id="currentUTC" data-testid="currentUTCTime"></span>
         </div>
-        <div class="item" data-testid="myTrack">
+        <div class="item">
           <label>Track:</label>
-          <span>Front End Track</span>
+          <span data-testid="myTrack">Front End Track</span>
         </div>
       </div>
       <footer>
-        <div class="github-link" data-testid="githubURL"></div>
-        <a href="https://github.com/UncleKweks/Zuri_Assignment-1"
+        <div class="github-link"></div>
+        <a
+          href="https://github.com/UncleKweks/Zuri_Assignment-1"
+          data-testid="githubURL"
           >Github Repository</a
         >
       </footer>
