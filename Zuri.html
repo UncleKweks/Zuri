@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Data Showcase</title>
+  </head>
+
+  <body>
+    <header>
+      <span> Personal Data Showcase</span>
+    </header>
+    <section>
+      <div class="container">
+        <div class="data-item" data testid="slackUsername">
+          <label>Slack Name:</label>
+          <span>Kwesili Okafor:</span>
+        </div>
+
+        <div class="data-item" data testid="slack-display-picture">
+          <label>Slack Display Picture:</label>
+          <img src="/IMG_9383.JPG" alt="Display Picture" />
+        </div>
+        <div class="data-item" data-testid="currentDayofTheWeek">
+          <label>Friday:</label>
+          <span id="currentDay"></span>
+        </div>
+        <div class="data-item" data-testid="currentUTCTime">
+          <label>Current UTC Time:</label>
+          <span id="currentUTC"></span>
+        </div>
+        <div class="data-item" data-testid="myTrack">
+          <label>Track:</label>
+          <span>Front End Track</span>
+          <footer>
+            <div class="github-link" data-testid="githubURL">
+              <a href=""></a>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
